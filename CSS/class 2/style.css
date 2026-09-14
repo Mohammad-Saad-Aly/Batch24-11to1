@@ -1,0 +1,45 @@
+/* h1 {
+    background-color: rgb(101, 108, 110);
+    color: white;
+    text-align: justify;
+} */
+
+/* selectors */
+
+/* universal
+type
+id
+class
+child
+adjacent sibling
+general sibling
+descendent */
+
+/* * {
+    color: red;
+    background-color: aqua;
+} */
+
+/* h1, p {
+    background-color: aqua;
+} */
+
+
+/* #username {
+    background-color: purple;
+    text-align: center;
+    color: white;
+}
+
+.abc {
+    background-color: red;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+} */
+
+ul > li {
+    background-color: aqua;
+}
