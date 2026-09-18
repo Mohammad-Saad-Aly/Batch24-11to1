@@ -1,0 +1,60 @@
+p {
+    text-transform: lowercase;
+    font-size: x-large;
+
+    /* text-shadow: -10px -10px 10px black; */
+    /* word-spacing: 20px; */
+    /* line-height: 30px; */
+    /* text-decoration: line-through; */
+}
+
+
+/* #para {
+    text-indent: 100px;
+}
+
+p::first-line{
+    font-weight: bolder;
+    font-size: 50px;
+    text-transform: uppercase;
+} */
+
+/* a:link{
+    color: black;
+}
+
+a:visited{
+    color: red;
+}
+
+a:hover {
+    font-size: 100px;
+    transition: 3s;
+}
+
+a {
+    transition: 3s;
+} */
+
+/* img:hover {
+    transform: translateX(1000%);
+    transition: 3s;
+} */
+
+#abc {
+    color: blue;
+}
+
+
+/* input:hover {
+    background-color: aqua;
+}
+
+input:active {
+    background-color: red;
+}
+
+input:focus {
+    background-color: black;
+    color: white;
+} */
