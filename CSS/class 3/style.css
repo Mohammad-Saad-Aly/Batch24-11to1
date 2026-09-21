@@ -1,0 +1,64 @@
+/* #para {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: bolder;
+    font-style: italic;
+} */
+
+/* .comic-relief-regular {
+  font-family: "Comic Relief", system-ui;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+/* .comic-relief-bold {
+  font-family: "Comic Relief", system-ui;
+  font-weight: 700;
+  font-style: normal;
+} */
+
+
+/* @font-face {
+    font-family: "Arham";
+    src: url('./Idiqlat/Idiqlat-ExtraLight.ttf');
+}
+
+#para {
+    font-family: 'Arham';
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.main {
+    background-color: bisque;
+
+    /* margin: 20px 350px 20px 350px; */
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+    width: 50%;
+    
+    /* margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    text-align: justify; */
+}
+
+
+
+
+
+
+
+
+
+

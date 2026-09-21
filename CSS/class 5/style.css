@@ -1,0 +1,52 @@
+.main {
+    background-color: bisque;
+    width: 30%;
+    font-size: large;
+    box-shadow: 0px 0px 10px 10px  black;
+
+
+    border: 10px solid green;
+    padding: 10px;
+    /* margin: 20px; */
+
+    /* border-top: 3px solid gray;
+    border-right: 3px solid black;
+    border-bottom: 8px solid palevioletred;
+    border-left: 4px solid blue;
+    
+    border-radius: 30px; */
+    /* border-top-right-radius: 20px; */
+
+    margin: auto;
+
+    /* border-width: 20px;
+    border-style: groove;
+    border-color:orange; */
+    /* height: 200px; */
+    /* overflow: scroll; */
+    /* overflow-x: scroll;
+    overflow-y: hidden; */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    background-color: black;
+    padding: 20px;
+    font-size: x-large;
+    color: white;
+}
+
+li {
+    display: inline-block;
+    width: 14%;
+    text-align: center;
+    padding: 10px;
+}
+
+#chirand {
+    visibility: hidden;
+}
