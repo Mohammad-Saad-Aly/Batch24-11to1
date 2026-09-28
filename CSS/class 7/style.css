@@ -1,0 +1,69 @@
+/* .main {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.card {
+    background-color: bisque;
+    width: 20%;
+    display: inline-block;
+    padding: 10px;
+    border-top: 20px solid black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 20px;
+}
+
+.card img {
+    width: 20%;
+    border-radius: 30px;
+} */
+
+
+form {
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    font-size: x-large;
+    border: 10px solid black;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+label {
+    display: inline-block;
+    text-align: left;
+    width: 130px;
+}
+
+#email-icon {
+    background-image: url('./email\ icon.png');
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+form {
+    background-image: url("https://img.magnific.com/free-photo/abstract-digital-grid-black-background_53876-97647.jpg?semt=ais_hybrid&w=740&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+input:hover {
+    cursor: all-scroll;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
