@@ -1,0 +1,40 @@
+.main {
+    font-size: xx-large;
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+    /* width: 400px; */
+    /* justify-content: space-around; */
+    /* flex-direction: column-reverse; */
+}
+
+.one {
+    background-color: bisque;
+}
+
+.two {
+    background-color: brown;
+    order: 1;
+}
+
+.three {
+    background-color: burlywood;
+    /* align-self: flex-start; */
+}
+
+.four {
+    background-color: papayawhip;
+}
+
+.five {
+    background-color: tomato;
+    order: -1;
+}
+
+.six {
+    background-color: turquoise;
+}
