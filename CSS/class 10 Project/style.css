@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: rgb(58, 55, 55);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    font-size: xx-large;
+    align-items: center;
+}
+
+.nav-child {
+    display: flex;
+    gap: 30px;
+}
+
+
+.section {
+    background-color: whitesmoke;
+    display: flex;
+    padding: 80px;
+    justify-content: space-around;
+}
+
+.section div {
+    width: 35%;    
+}
+
+
+.btn {
+    width: 100px;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    background-color: orange;
+    color: white;
+}
+
+.footer {
+    background-color: rgb(58, 55, 55);
+    padding: 70px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cal {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.cal img {
+    border-radius: 3px;
+}
+
+
+.about {
+    width: 30%;
+}
+
+.icon {
+    display: flex;
+    gap: 10px;
+    font-size: x-large;
+}
+
+
+.fb {
+    color: blue;
+}
