@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar md:navbar-expand bg-1 antibanti" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Dark navbar</a>
+        <button
+          class="btn-icon navbar-toggler"
+          type="button"
+          data-bs-toggle="drawer"
+          data-bs-target="#navbarDarkDrawer"
+          aria-controls="navbarDarkDrawer"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon" aria-hidden="true"></span>
+        </button>
+        <dialog
+          class="drawer drawer-end"
+          tabindex="-1"
+          id="navbarDarkDrawer"
+          aria-labelledby="navbarDarkDrawerLabel"
+        >
+          <div class="drawer-header">
+            <h5 class="drawer-title" id="navbarDarkDrawerLabel">Menu</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="drawer"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="drawer-body mb-2 md:mb-0">
+            <ul class="nav navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <button
+                  class="nav-link"
+                  type="button"
+                  data-bs-toggle="menu"
+                  aria-expanded="false"
+                >
+                  Menu
+                </button>
+                <div class="menu">
+                  <a class="menu-item" href="#">Action</a>
+                  <a class="menu-item" href="#">Another action</a>
+                  <hr class="menu-divider" />
+                  <a class="menu-item" href="#">Something else here</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="hstack gap-2" role="search">
+              <input
+                class="form-control"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn-solid btn-icon theme-secondary" type="submit">
+                <svg class="bi" width="16" height="16">
+                  <use href="#search" />
+                </svg>
+              </button>
+            </form>
+          </div>
+        </dialog>
+      </div>
+    </nav>
+
+    
+
+    <div id="carouselStacked" class="carousel slide">
+      <div class="d-flex justify-content-between align-items-center">
+        <h5 class="mb-0">Top controls</h5>
+        <div>
+          <button
+            class="btn-icon btn-sm"
+            type="button"
+            data-bs-target="#carouselStacked"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-icon-prev" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="btn-icon btn-sm"
+            type="button"
+            data-bs-target="#carouselStacked"
+            data-bs-slide="next"
+          >
+            <span class="carousel-icon-next" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="carousel-inner rounded-5">
+        <div class="carousel-item active">
+          <img src="https://static.tossdown.com/images/3418771f-3046-4754-92e6-7ba45f4f7248.webp" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="https://static.tossdown.com/images/81777993-a226-4c3e-bd3f-0401e68fa6f2.webp" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="https://static.tossdown.com/images/9a67eb21-e21d-4409-b846-e24fb2cfc313.webp" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row row-cols-1 md:row-cols-2 g-4">
+  <div class="col">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h4 class="card-title">Card title</h4>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h4 class="card-title">Card title</h4>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h4 class="card-title">Card title</h4>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h4 class="card-title">Card title</h4>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+</html>
